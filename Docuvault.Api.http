@@ -1,0 +1,6 @@
+@Docuvault.Api_HostAddress = http://localhost:5251
+
+GET {{Docuvault.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
