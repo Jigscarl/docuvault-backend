@@ -1,3 +1,4 @@
+
 namespace Docuvault.Api.Models;
 
 public class Document
@@ -14,4 +15,6 @@ public class Document
     public DateTimeOffset? DeletedAt { get; set; }
     public DateTimeOffset CreatedAt { get; set; }
     public DateTimeOffset UpdatedAt { get; set; }
+    public Guid? FolderId {get; set;}
+    public Folder? Folder {get; set;}
 }

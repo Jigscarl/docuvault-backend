@@ -8,6 +8,7 @@ public class DocumentResponseDto
     public string ContentType {get; set;} = string.Empty;
     public long SizeBytes {get; set;}
     public bool IsFavorite {get; set;}
+    public Guid FolderId {get; set;}
     public DateTimeOffset? DeletedAt {get; set;}
     public DateTimeOffset CreatedAt {get; set;}
 }
